@@ -1,1 +1,0 @@
-## React JS Coding Practice Repo.

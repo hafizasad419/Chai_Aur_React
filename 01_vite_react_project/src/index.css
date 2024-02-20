@@ -1,0 +1,51 @@
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: 'poppins';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  /* font-synthesis: none; */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: orange;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  /* place-items: center; */
+  /* min-width: 100vw; */
+  /* min-height: 100vh;  */
+}
+
+h1 {
+  /* line-height: 1.1; */
+  font-family: 'poppins';
+}
+
+/* .parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.parent h1,
+.parent h2 {
+  margin: 0 5vw;
+  font-size: 3.2em;
+}
+
+#wrestlers {
+  list-style: none;
+  /* display: flex; */
+  justify-content: space-evenly;
+}
